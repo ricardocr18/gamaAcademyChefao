@@ -1,0 +1,16 @@
+.banner{   
+    text-align: center;
+}
+
+.bannerFoto{
+    height: 520px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+.bannerTitulo p{
+    color: #FAFEFC;
+    font-size: 56px;
+    margin-top: 110px;
+    font-family: 'Montserrat', sans-serif;
+}
+
