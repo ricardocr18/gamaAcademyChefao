@@ -4,7 +4,7 @@ import Home from './pages/Home';
 
 
 
- function App(){
+function App(){
   return(
     <div className='App'>
         <BrowserRouter>
