@@ -1,22 +1,34 @@
-import { Component } from 'react';
-import Headers from './components/Header';
-import Banner from './components/Banner';
-import Content from './components/Content';
-import SobreNos from './components/SobreNos';
-import Footer from './Footer';
+import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Home from './pages/Home';
 
-class App extends Component{
-  render(){
-    return (
-      <div className="App">
-        <Headers />
-        <Banner />
-        <Content/>
-        <SobreNos/>
-        <Footer />
-      </div>
-    );
-  }
+
+
+ function App(){
+  return(
+    <div className='App'>
+        <BrowserRouter>
+        <Switch>
+          <Route patch='/' exact component={Home} />
+          </Switch>
+        </BrowserRouter>
+      
+    </div>
+  )
+}
+export default App;
+
+
+
+
+
+  /*function App() {
+  return (
+    <div className="App">
+    <Home />         
+  </div>
+);
+    
 }
 
-export default App;
+export default App; */

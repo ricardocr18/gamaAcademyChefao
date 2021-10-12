@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import surface1 from "../../assets/img/surface1.png";
-import './estilo.css';
+import surface1 from '../img/surface1.png';
+import '../style/Header.css';
 
-class Headers extends Component {
+class Header extends Component {
   render() {
     return (
         
@@ -41,4 +41,4 @@ class Headers extends Component {
   }
 }
 
-export default Headers;
+export default Header;
