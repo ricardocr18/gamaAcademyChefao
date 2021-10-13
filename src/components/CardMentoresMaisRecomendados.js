@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import "../../src/App.css";
+import '../style/TelaDeMentores.css';
 
-import img1 from "../images/img1.png";
-import img2 from "../images/img2.png";
-import img3 from "../images/img3.png";
-import img4 from "../images/img4.png";
-import img5 from "../images/img5.png";
+import img1 from '../img/img1.png';
+import img2 from '../img/img2.png';
+import img3 from '../img/img3.png';
+import img4 from '../img/img4.png';
+import img5 from '../img/img5.png';
 
 export default class CardMentoresMaisRecomendados extends Component {
   render() {

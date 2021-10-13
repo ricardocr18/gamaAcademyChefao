@@ -2,9 +2,17 @@ import React, { Component } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import surface1 from '../img/surface1.png';
 import '../style/Header.css';
+import { Link, useHistory } from 'react-router-dom'
 
-class Header extends Component {
-  render() {
+function Header() {
+
+const history = useHistory();
+
+   function mentoresBtn() {
+     history.push("/mentores");
+     window.location.reload();
+   }
+   
     return (
         
       <Navbar className="headerColor" collapseOnSelect expand="lg">
@@ -20,9 +28,11 @@ class Header extends Component {
                 <Nav.Link className="colors" href="#deets">
                   <span>Sobre</span>
                 </Nav.Link>
-                <Nav.Link href="#deets">
-                  <span>Mentores</span>
-                </Nav.Link>
+
+                <Nav.Link>
+                  <span onClick={() => mentoresBtn()}>Mentores</span>
+                </Nav.Link> 
+                
                 <Nav.Link href="#deets">
                   <span>Contato</span>
                 </Nav.Link>
@@ -39,6 +49,6 @@ class Header extends Component {
       </Navbar>
     );
   }
-}
+
 
 export default Header;
