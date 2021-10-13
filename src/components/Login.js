@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
-import Cadastro from './Cadastro.js'
-import Header from './Header.js';
+
+import Cadastrobtn from './CadastroBtn';
+import Loginbtn from './LoginBtn';
+
+import '../style/TelaLoginEhCadastro.css';
+
 
 class Login extends Component {
 
@@ -37,6 +41,11 @@ class Login extends Component {
     return (
       
       <div className="cadastro__container">
+
+      <div className="buttons_container">
+            <Cadastrobtn />
+            <Loginbtn />
+         </div>  
        
           <h2 className="cadastro__title">Login</h2>
         <form className="form__container">

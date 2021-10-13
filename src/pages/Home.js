@@ -1,7 +1,5 @@
 import { Component } from 'react'
 import { Button, Card } from 'react-bootstrap';
-import Header from '../components/Header.js';
-import Footer from '../components/Footer';
 import foto from '../img/banner.png';
 import '../style/Home.css';
  
@@ -10,7 +8,7 @@ class Home extends Component {
     render(){
         return( 
             <div className="Home">
-            <Header/>
+            
 
                 <div>
                     <Card className="banner">
@@ -43,7 +41,7 @@ class Home extends Component {
                     </div>
                 </div>
 
-            <Footer/>
+           
                
             </div>                                      
         );

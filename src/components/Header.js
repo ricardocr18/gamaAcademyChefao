@@ -18,7 +18,7 @@ function Header() {
    }
 
    function LoginEhCadastroBtn() {
-    history.push("/loginEhCadastro");
+    history.push("/cadastro");
     window.location.reload();
   }
   

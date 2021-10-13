@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 const timeOut = 300;
 let radioOption = 'Mentor';
 let nomeOk = false;
@@ -41,7 +42,9 @@ class Cadastro extends Component {
 
   modalInputError(input__error) {
     return (
+      
       <div className="modal__error">
+        
         <span className="modal__error-title">Alerta!!!</span>
         { 
           input__error === 'senha-cadastro' ? (
@@ -162,7 +165,9 @@ class Cadastro extends Component {
  
   render() {
     return (
+      
       <div className="cadastro__container">
+        
           <h2 className="cadastro__title">Cadastro</h2>
         <form className="form__container">
           <div className="form-content name__input">

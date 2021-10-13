@@ -2,8 +2,7 @@ import CardSlider from "../components/CardSlider"
 import CardMentores from "../components/CardMentores";
 import CardMentoresMaisRecomendados from '../components/CardMentoresMaisRecomendados'
 import { Component } from 'react';
-import Header from '../components/Header.js';
-import Footer from "../components/Footer";
+
 import '../style/TelaDeMentores.css'
 
 class Mentores extends Component {
@@ -11,7 +10,7 @@ class Mentores extends Component {
   render (){
     return (
       <div className="Mentores">
-      <Header/>
+      
         <div class="container">
           <h1 class="font-weight-bold pt-5">Vamos encontrar seu mentor ideal</h1>
           <div className="row">
@@ -33,7 +32,7 @@ class Mentores extends Component {
         <CardSlider />
         <CardMentores/>
         <CardMentoresMaisRecomendados/>
-        <Footer />
+        
       </div>      
      )
      
