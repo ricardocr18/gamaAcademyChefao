@@ -1,7 +1,11 @@
 import { Component } from "react";
 import '../style/PerfilDoMentor.css';
 import Ellipse6 from '../img/Ellipse6.png';
-import { main, Navbar, Container, Nav } from "react-bootstrap";
+
+import CardSlider from "../components/CardSlider"
+import CardMentores from "../components/CardMentores";
+import CardMentoresMaisRecomendados from '../components/CardMentoresMaisRecomendados'
+
 
 
 class PerfilDoMentor extends Component {
@@ -60,9 +64,13 @@ class PerfilDoMentor extends Component {
                 <p>Conheça alguns dos nossos mentores:</p>
                 </div>
 
+                <CardSlider />
+                <button type="button" class="btn btn-success">Ser mentor</button>
+        
+
             </div>
 
-
+            
 
         )
      
