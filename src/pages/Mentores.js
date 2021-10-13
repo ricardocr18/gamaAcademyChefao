@@ -1,7 +1,10 @@
 import CardSlider from "../components/CardSlider"
 import Exemplo from "../components/Exemplo";
+import CardMentores from "../components/CardMentores";
+import CardMentoresMaisRecomendados from '../components/CardMentoresMaisRecomendados'
 import { Component } from 'react';
 import Header from '../components/Header.js';
+import Footer from "../components/Footer";
 import '../style/TelaDeMentores.css'
 
 class Mentores extends Component {
@@ -26,13 +29,17 @@ class Mentores extends Component {
                 <h2 className="pt-5 pb-4">Especialidades mais procuradas</h2>
               </div>
             </div>
-            <CardSlider />
-            <Exemplo/> 
-          </div>        
-        </div>    
-      </div>
+          </div>              
+        </div>
+        <CardSlider />
+        <CardMentores/>
+        <CardMentoresMaisRecomendados/>
+        <Footer />
+      </div>      
      )
+     
   }
+  
 }
 
 export default Mentores;

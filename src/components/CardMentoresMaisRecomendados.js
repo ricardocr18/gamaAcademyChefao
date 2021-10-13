@@ -8,7 +8,7 @@ import img3 from '../img/img3.png';
 import img4 from '../img/img4.png';
 import img5 from '../img/img5.png';
 
-export default class CardMentoresMaisRecomendados extends Component {
+class CardMentoresMaisRecomendados extends Component {
   render() {
     var settings = {
       dots: true,
@@ -93,3 +93,5 @@ export default class CardMentoresMaisRecomendados extends Component {
     );
   }
 }
+
+export default CardMentoresMaisRecomendados;

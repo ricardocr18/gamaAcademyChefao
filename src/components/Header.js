@@ -6,20 +6,27 @@ import { Link, useHistory } from 'react-router-dom'
 
 function Header() {
 
-const history = useHistory();
-
+  const history = useHistory();
    function mentoresBtn() {
      history.push("/mentores");
      window.location.reload();
    }
+  
+   function homeBtn() {
+     history.push("/");
+     window.location.reload();
+   }
+  
    
     return (
         
       <Navbar className="headerColor" collapseOnSelect expand="lg">
         <Container>
-          <Navbar.Brand href="#home">
-            <img src={surface1} alt="" />
+
+          <Navbar.Brand >
+            <img onClick={() => homeBtn()} src={surface1} alt="" />
           </Navbar.Brand>
+
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
@@ -49,6 +56,4 @@ const history = useHistory();
       </Navbar>
     );
   }
-
-
 export default Header;
