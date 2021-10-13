@@ -1,15 +1,23 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import '../style/TelaDeMentores.css';
-
+import '../style/Mentores.css';
 import img1 from '../img/img1.png';
 import img2 from '../img/img2.png';
 import img3 from '../img/img3.png';
 import img4 from '../img/img4.png';
 import img5 from '../img/img5.png';
+import { useHistory } from 'react-router-dom'
 
-class CardMentoresMaisRecomendados extends Component {
-  render() {
+function CardMentoresMaisRecomendados () {
+
+  
+
+    const history = useHistory();
+        function perfilPedroBtn() {
+          history.push("/perfil");
+          window.location.reload();
+        }
+
     var settings = {
       dots: true,
       infinite: true,
@@ -58,7 +66,7 @@ class CardMentoresMaisRecomendados extends Component {
               </div>
             </div>
           </div>
-          <div className="card-group">
+          <div className="card-group" onClick={() => perfilPedroBtn()}>
             <div className="card">
               <img className="pt-3 card-img-top" src={img2} alt="" />
               <div className="card-body">
@@ -91,7 +99,7 @@ class CardMentoresMaisRecomendados extends Component {
         </Slider>
       </div>
     );
-  }
+  
 }
 
 export default CardMentoresMaisRecomendados;

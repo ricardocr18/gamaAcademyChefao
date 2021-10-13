@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import TelaLoginEhCadastro from './pages/TelaLoginEhCadastro';
 import Login from './components/Login';
 import './style/TelaLoginEhCadastro.css';
+import PerfilDoMentor from './pages/PerfilDoMentor';
 
 function App(){
   return(
@@ -16,6 +17,7 @@ function App(){
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/mentores"  component={Mentores} />
+            <Route exact path="/perfil"  component={PerfilDoMentor} />
             {/* <Route exact path="/loginEhCadastro" component={TelaLoginEhCadastro} /> */}
           </Switch> 
 

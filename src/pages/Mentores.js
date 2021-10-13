@@ -3,7 +3,7 @@ import CardMentores from "../components/CardMentores";
 import CardMentoresMaisRecomendados from '../components/CardMentoresMaisRecomendados'
 import { Component } from 'react';
 
-import '../style/TelaDeMentores.css'
+import '../style/Mentores.css'
 
 class Mentores extends Component {
 

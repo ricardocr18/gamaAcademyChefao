@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import surface1 from '../img/surface1.png';
 import '../style/Header.css';

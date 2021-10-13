@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import '../style/TelaDeMentores.css'
+import '../style/Mentores.css'
 
 import img1 from '../img/img1.png';
 import img2 from '../img/img2.png';
