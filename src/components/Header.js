@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import surface1 from '../img/surface1.png';
 import '../style/Header.css';
-import { Link, useHistory } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
 
 function Header() {
 
@@ -18,7 +18,7 @@ function Header() {
    }
 
    function LoginEhCadastroBtn() {
-    history.push("/login&Cadastro");
+    history.push("/loginEhCadastro");
     window.location.reload();
   }
   
