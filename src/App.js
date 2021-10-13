@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
 import Mentores from './pages/Mentores';
-import Teste from './pages/Teste';
+import TelaLoginEhCadastro from './pages/TelaLoginEhCadastro';
 import './App.css';
 
 function App(){
@@ -12,7 +12,7 @@ function App(){
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/mentores"  component={Mentores} />
-            <Route exact path="/teste" component={Teste} />
+            <Route exact path="/login&Cadastro" component={TelaLoginEhCadastro} />
           </Switch>        
       
     </div>

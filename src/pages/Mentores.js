@@ -1,5 +1,4 @@
 import CardSlider from "../components/CardSlider"
-import Exemplo from "../components/Exemplo";
 import CardMentores from "../components/CardMentores";
 import CardMentoresMaisRecomendados from '../components/CardMentoresMaisRecomendados'
 import { Component } from 'react';

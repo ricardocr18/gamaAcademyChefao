@@ -16,6 +16,11 @@ function Header() {
      history.push("/");
      window.location.reload();
    }
+
+   function LoginEhCadastroBtn() {
+    history.push("/login&Cadastro");
+    window.location.reload();
+  }
   
    
     return (
@@ -46,9 +51,11 @@ function Header() {
                 <Nav.Link href="#deets">
                   <span>FAQ</span>
                 </Nav.Link>
+
                 <Nav.Link href="#deets">
-                  <span>Login/Cadastro</span>
+                  <span onClick={() => LoginEhCadastroBtn()}>Login/Cadastro</span>
                 </Nav.Link>
+
               </Nav>
             </div>
           </Navbar.Collapse>
