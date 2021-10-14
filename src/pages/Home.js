@@ -41,6 +41,21 @@ class Home extends Component {
                     </div>
                 </div>
 
+                <div className="row">
+            <div className="col-xs-4">
+              <div className="indicaAmigo">
+                <div className="quadrado">
+                  <h2>Indique e ganhe</h2>
+                  <h5>
+                    Indique e ganhe A cada indicação que se cadastrar
+                    <span> aqui</span> na Mentorando, ganhe um bônus/desconto de
+                    10% do valor da sua próxima mentoria
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
            
                
             </div>                                      

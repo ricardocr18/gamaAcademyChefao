@@ -26,3 +26,67 @@
 .contentAjudar h2{
     font-size: 42px;
 }
+
+/*Quadrado de ofertas*/
+
+.quadrado {
+    position: relative;
+    width: 713px;
+    height: 460px;
+    background: #fafefc;
+    left: -150px;
+  
+    border: 4px dashed #3f51b5;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.3);
+  }
+  .indicaAmigo {
+    margin: 30px 550px 0;
+  }
+  .quadrado h2 {
+    position: absolute;
+    width: 343px;
+    height: 49px;
+    left: 188px;
+    top: 83px;
+  
+    /* H2 */
+  
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+  
+    text-align: center;
+  
+    /* Cor Primária */
+  
+    color: #3f51b5;
+  
+    text-align: center;
+  }
+  
+  .quadrado h5 {
+    position: absolute;
+    width: 625px;
+    height: 205px;
+    left: 44px;
+    top: 172px;
+  
+    /* H3 */
+  
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  
+    /* Cor Primária */
+  }
+  
+  .quadrado h5 span {
+    color: #058c42;
+  }
