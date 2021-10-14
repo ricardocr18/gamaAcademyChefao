@@ -12,7 +12,7 @@ import '../style/TelaLoginEhCadastro.css';
 function TelaLoginEhCadastro() {
   return (
     
-    <div className='App'>
+    <div className='TelaLoginEhCadastro'>
      <main>
        <div className="content__container">
          <div className="buttons_container">

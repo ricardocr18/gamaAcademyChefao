@@ -48,7 +48,7 @@ class Login extends Component {
          </div>  
        
           <h2 className="cadastro__title">Login</h2>
-        <form className="form__container">
+        <form className="form__container_login">
           <div className="form-content email__input">
             <input 
               id="email"
