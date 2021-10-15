@@ -2,7 +2,7 @@ import { Component } from 'react'
 import { Button, Card } from 'react-bootstrap';
 import foto from '../img/banner.png';
 import fotoForm from '../img/foto_form.png';
-import CardSlider from '../components/CardSlider'
+import CardSliderTextoHome from '../components/CardSliderTextoHome'
 import '../style/Home.css';
  
 
@@ -18,13 +18,37 @@ class Home extends Component {
                         <Card.ImgOverlay>
                             <Card.Title className='bannerTitulo'>                       
                             <p>Conectamos você com as melhores soluções técnicas</p>                                             
-                            </Card.Title>                        
-                            <input 
+                            </Card.Title> 
+
+                            <div className="container">
+              <div className="row">
+                <div className="col-12"> 
+
+                            <div className="tamanho">
+                      <div class="search mt-5">
+                        <i class="fa fa-search"></i>
+
+                        <input className='tamanhoInput'
+                          type="text-center"
+                          class="form-control"
+                          placeholder="Busque sua especialidade"
+                        />
+                      </div>
+                    </div>
+
+                    </div>
+                    </div>
+                    </div>
+
+
+                            {/* <input 
                                 type="text"
                                 placeholder="Busque sua especialidade"
-                                className="form-cadastro_input"
-                            //onChange={this._handleMudancaTitulo.bind(this)}
-                            />                        
+                                className="form-cadastro_input"                            
+                            />                         */}
+
+
+
                         </Card.ImgOverlay>
                     </Card>
                 </div>
@@ -47,34 +71,29 @@ class Home extends Component {
 
                 </div>
 
-              {/* Quadrado de Aviso */}
+            
 
-                {/* <div className="row"> */}
-            {/* <div className="col-xs-4"> */}
-              {/* <div className="indicaAmigo"> */}
-
-              <div id="about-form">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">   
-              <div className="quadrado">
-                  <h2>Indique e ganhe</h2>
-                  <h5>
-                    Indique e ganhe A cada indicação que se cadastrar
-                    <span> aqui</span> na Mentorando, ganhe um bônus/desconto de
-                    10% do valor da sua próxima mentoria
-                  </h5>
+          <div id="about-form">
+            <div className="container">
+              <div className="row">
+                <div className="col-12">   
+                  <div className="quadrado">
+                      <h2>Indique e ganhe</h2>
+                      <h5>
+                        Indique e ganhe A cada indicação que se cadastrar
+                        <span> aqui</span> na Mentorando, ganhe um bônus/desconto de
+                        10% do valor da sua próxima mentoria
+                      </h5>
+                    </div>
+                  </div>
                 </div>
               </div>
-              </div>
-              </div>
-              </div>
-
-              {/* </div>
             </div>
-          </div> */}
+          
 
-            <CardSlider />
+           
+
+            <CardSliderTextoHome />
 
 
         {/* <!-- Formulário --> */}

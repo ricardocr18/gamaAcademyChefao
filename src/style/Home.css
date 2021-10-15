@@ -15,6 +15,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.tamanho{
+  width: 670px;
+  }
+
+.searh input{
+  height: 55px;
+}
 
 /* Conteudo de Ajuda e o Que é Mentorando */
 .contentAjudar{
