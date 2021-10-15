@@ -1,11 +1,8 @@
 import { Component } from "react";
 import '../style/PerfilDoMentor.css';
 import Ellipse6 from '../img/Ellipse6.png';
-
-import CardSlider from "../components/CardSlider"
-import CardMentores from "../components/CardMentores";
-import CardMentoresMaisRecomendados from '../components/CardMentoresMaisRecomendados'
-
+import CardSlider from "../components/CardSlider";
+import '../style/PerfilDoMentor.css';
 
 
 class PerfilDoMentor extends Component {
@@ -15,7 +12,7 @@ class PerfilDoMentor extends Component {
 
             <div className="container-fluid">
 
-                <div className="main fontStyle">
+                <div className="mainfontStyle">
                     <h1>Conheça seu mentor</h1>
                     <div>
                         <img src={Ellipse6} alt="" />

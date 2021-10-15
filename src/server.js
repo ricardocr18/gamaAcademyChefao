@@ -1,16 +1,20 @@
-const express = require ('express')
-const app = express()
 
-const baseDir = `${__dirname}/build/`
+// Feito na Alura
+// const express = require ('express')
+// const app = express()
 
-app.use(express.static(baseDir))
-app.get('*', (request,response) => {
-    response.sendFile('index.html', {
-        root: baseDir
-    })
-})
+// const baseDir = `${__dirname}/build/`
+
+// app.use(express.static(baseDir))
+// app.get('*', (request,response) => {
+//     response.sendFile('index.html', {
+//         root: baseDir
+//     })
+// })
 
 
+
+// Feito no Youtube
 // const express = require ('express')
 // const { resolve } = require('path')
 

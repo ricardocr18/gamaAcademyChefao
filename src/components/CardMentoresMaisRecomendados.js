@@ -1,9 +1,7 @@
-import React, { Component } from "react";
 import Slider from "react-slick";
 import '../style/Mentores.css';
 import img1 from '../img/img1.png';
 import img2 from '../img/img2.png';
-import img3 from '../img/img3.png';
 import img4 from '../img/img4.png';
 import img5 from '../img/img5.png';
 import { useHistory } from 'react-router-dom'

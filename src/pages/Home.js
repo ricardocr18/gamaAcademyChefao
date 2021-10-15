@@ -1,10 +1,10 @@
 import { Component } from 'react'
-import { Button, Card, FloatingLabel, Form } from 'react-bootstrap';
+import { Button, Card, Form } from 'react-bootstrap';
 import foto from '../img/banner.png';
 import fotoForm from '../img/foto_form.png';
 import CardSliderTextoHome from '../components/CardSliderTextoHome'
 import '../style/Home.css';
-import Mentores from './Mentores';
+
 
 
 class Home extends Component {
