@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import { Button, Card } from 'react-bootstrap';
+import { Button, Card, FloatingLabel, Form } from 'react-bootstrap';
 import foto from '../img/banner.png';
 import fotoForm from '../img/foto_form.png';
 import CardSliderTextoHome from '../components/CardSliderTextoHome'
@@ -55,15 +55,17 @@ class Home extends Component {
 
                <div className='contentAjudar'>
                     <h2>Estamos aqui para ajudar você neste momento</h2>
-                    <h3>Seja você um mentor, um aluno ou uma empresa, temos a solução perfeita para você!</h3>
+                    <h3>Seja você um mentor, um aluno ou uma<br/> empresa, temos a solução perfeita para você!</h3>
+                     <div className='buttonsAjuda'>
                     <Button className='bot' variant="primary">Seu mentor</Button>{' '}
                     <Button variant="success">Sou aluno</Button>{' '}
                     <Button variant="light">Sou empresa</Button>{' '}
+                    </div>
 
                     <div className='contentMentorando'>
                         <h2>Quem é a Mentorando?</h2>
-                        <h3>Nós rmpeos a barreira do conhecimento! Conectamos problemas reais aos melhores e mais especializados mentores capazes de transformar realizades e negócios</h3>
-                        <Button variant="success">Me cadastrar</Button>{' '}
+                        <h3>Nós rmpeos a barreira do conhecimento!<br/> Conectamos problemas reais aos melhores e mais especializados<br/> mentores capazes de transformar realizades e negócios</h3>
+                        <Button className='buttonMentorando'variant="success">Me cadastrar</Button>{' '}
                     </div>
 
                     
@@ -108,7 +110,7 @@ class Home extends Component {
               </div>
               <div class="col-md-6">
 
-                <form class="row g-3" action="enviar.php" method="POST">
+                <form className='formHome' class="row g-3" action="enviar.php" method="POST">
                   <h5>Fale Conosco.</h5>
                   <div class="col-md-12">
                     <label for="validationDefault01" class="form-label">Nome</label>
@@ -120,17 +122,15 @@ class Home extends Component {
                   </div>
 
                   
-                  <div class="col-12">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" name="concorda" value="" id="invalidCheck2" required/>
-                      <label class="form-check-label" for="invalidCheck2">
-                        Concordo em enviar meus dados para analise
-                      </label>
-                    </div>
-                  </div>
+                  <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+    <Form.Label>Mensagem</Form.Label>
+    <Form.Control as="textarea" rows={3}  placeholder="Digite a sua Mensagem aqui"/>
+  </Form.Group>
+                  
+                  
                   <div class="col-12">
                     <button class="btn btn-primary" name="enviarFormulario" type="submit">Enviar</button>
-                  </div>                 
+                  </div>               
 
                 </form>
               </div>

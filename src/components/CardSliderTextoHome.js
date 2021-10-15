@@ -74,11 +74,7 @@ export default class CardSliderTextoHome extends Component {
             <p className="card-text2">Estudante</p>
             </div>
 
-            <div className="card-group"> 
-            <p className="card-text">“Lorem Ipsum Dolor”</p>
-            <p className="card-text">Dilma</p>
-            <p className="card-text2">Empresa</p>
-            </div>           
+                   
 
           
           

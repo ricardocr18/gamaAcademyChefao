@@ -34,8 +34,19 @@
     font-size: 42px;
 }
 
-/*Quadrado de ofertas*/
+.buttonsAjuda{
+  margin-top: 40px;
+}
 
+.contentMentorando{
+  margin-top: 70px;
+}
+
+.buttonMentorando {
+  margin-top:40px
+}
+
+/*Quadrado de ofertas*/
 .quadrado {
    
     position: relative;
@@ -102,4 +113,8 @@
   /* Fomulário e Foto do Professor */
   #about-form{
     margin-top: 70px;
+  }
+
+  .row{
+    margin-top: 40px;
   }
