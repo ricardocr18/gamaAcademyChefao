@@ -16,16 +16,19 @@ class PerfilDoMentor extends Component {
                     <h1>Conheça seu mentor</h1>
                     <div>
                         <img src={Ellipse6} alt="" />
-                        <h2>Raquel
+                        <h2 className='nomeDoMentor'>Raquel
 
-                            <div className="">Cálculo I</div>
+                            <div className="calculo">Cálculo I</div>
                             ★ ★ ★ ★ ☆
                         </h2>
                         <hr />
-                        <h2>Sobre Mim</h2>
-                        <p>Meu nome é Raquel e sou formada em Engenhagia Civil,
-                            com Mestrado em Matemática Aplicada e faço Doutorado em Cálculo Estrutural.
-                            Sou apaixonada por ensinar e por ajudar pessoas a superar seus desafios.</p>
+                        <div className='sobreMim'>
+                            <h2>Sobre Mim</h2>
+                        </div>
+                        <p>Meu nome é Raquel e sou formada em Engenhagia Civil, com<br />
+                            Mestrado em Matemática Aplicada e faço Doutorado em,<br />
+                            Cálculo Estrutural. Sou apaixonada por ensinar e por ajudar<br />
+                            pessoas a superar seus desafios.</p>
                         <hr />
                         <h2>Minhas Formações</h2>
 

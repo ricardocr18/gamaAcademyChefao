@@ -9,15 +9,24 @@
     font-family: 'Montserrat', sans-serif;
   }
 
-.mainfontStyle{
-  margin-top: 70px
+.mainfontStyle h1{  
+  margin: 110px 0px 70px 0px;
 }
 
+.nomeDoMentor{
+  margin: 34px 0px 12px 0px;
+}
 
-  
-  .card-group {
-    padding: 10%;
-  }
+.calculo{
+  margin: 12px 0px 21px 0px;
+}  
+.card-group{
+  padding: 10%;
+}
+
+.sobreMim{
+  margin: 35px 0px 40px 0px;
+}
   
   .card-group .card {
     border: 0.5px solid rgba(3, 4, 94, 0.5);
