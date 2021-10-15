@@ -54,9 +54,14 @@ class Home extends Component {
                 </div>
 
                <div className='contentAjudar'>
+
+                    <div id='ajuda'>   
                     <h2>Estamos aqui para ajudar você neste momento</h2>
+                    </div>
+                    <div className='subTexto'>
                     <h3>Seja você um mentor, um aluno ou uma<br/> empresa, temos a solução perfeita para você!</h3>
-                     <div className='buttonsAjuda'>
+                    </div>
+                    <div className='buttonsAjuda'>
                     <Button className='bot' variant="primary">Seu mentor</Button>{' '}
                     <Button variant="success">Sou aluno</Button>{' '}
                     <Button variant="light">Sou empresa</Button>{' '}
@@ -64,7 +69,9 @@ class Home extends Component {
 
                     <div className='contentMentorando'>
                         <h2>Quem é a Mentorando?</h2>
-                        <h3>Nós rmpeos a barreira do conhecimento!<br/> Conectamos problemas reais aos melhores e mais especializados<br/> mentores capazes de transformar realizades e negócios</h3>
+                        <div className='subTexto'>
+                        <h3>Nós rompemos a barreira do conhecimento!<br/> Conectamos problemas reais aos melhores e mais especializados<br/> mentores capazes de transformar realizades e negócios</h3>
+                        </div>
                         <Button className='buttonMentorando'variant="success">Me cadastrar</Button>{' '}
                     </div>
 

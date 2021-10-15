@@ -37,7 +37,7 @@ function Header() {
             <Nav className="me-auto"></Nav>
             <div>
               <Nav>
-                <Nav.Link className="colors" href="#deets">
+                <Nav.Link className="colors" href="/#ajuda">
                   <span>Sobre</span>
                 </Nav.Link>
 
