@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/gamaAcademyChefao/static/css/main.8cca3d55.chunk.css",
+    "main.js": "/gamaAcademyChefao/static/js/main.239b5a47.chunk.js",
+    "main.js.map": "/gamaAcademyChefao/static/js/main.239b5a47.chunk.js.map",
+    "runtime-main.js": "/gamaAcademyChefao/static/js/runtime-main.fba4f058.js",
+    "runtime-main.js.map": "/gamaAcademyChefao/static/js/runtime-main.fba4f058.js.map",
+    "static/js/2.d7431aac.chunk.js": "/gamaAcademyChefao/static/js/2.d7431aac.chunk.js",
+    "static/js/2.d7431aac.chunk.js.map": "/gamaAcademyChefao/static/js/2.d7431aac.chunk.js.map",
+    "index.html": "/gamaAcademyChefao/index.html",
+    "static/css/main.8cca3d55.chunk.css.map": "/gamaAcademyChefao/static/css/main.8cca3d55.chunk.css.map",
+    "static/js/2.d7431aac.chunk.js.LICENSE.txt": "/gamaAcademyChefao/static/js/2.d7431aac.chunk.js.LICENSE.txt",
+    "static/media/Ellipse6.5189ef9e.png": "/gamaAcademyChefao/static/media/Ellipse6.5189ef9e.png",
+    "static/media/banner.f655ed45.png": "/gamaAcademyChefao/static/media/banner.f655ed45.png",
+    "static/media/foto_form.f6dbe510.png": "/gamaAcademyChefao/static/media/foto_form.f6dbe510.png",
+    "static/media/img1.2a2bf3d6.png": "/gamaAcademyChefao/static/media/img1.2a2bf3d6.png",
+    "static/media/img2.ad5e8ae8.png": "/gamaAcademyChefao/static/media/img2.ad5e8ae8.png",
+    "static/media/img3.3a55b3c2.png": "/gamaAcademyChefao/static/media/img3.3a55b3c2.png",
+    "static/media/img4.0c2fb658.png": "/gamaAcademyChefao/static/media/img4.0c2fb658.png",
+    "static/media/img5.f3bf1293.png": "/gamaAcademyChefao/static/media/img5.f3bf1293.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fba4f058.js",
+    "static/js/2.d7431aac.chunk.js",
+    "static/css/main.8cca3d55.chunk.css",
+    "static/js/main.239b5a47.chunk.js"
+  ]
+}
