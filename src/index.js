@@ -5,13 +5,13 @@ import App from './App';
 import { BrowserRouter, Switch } from "react-router-dom";
 
 ReactDOM.render(
-  
-    <BrowserRouter>
+
+  <BrowserRouter>
     <Switch>
-      <App />      
-      </Switch>
-    </BrowserRouter>, 
-  
+      <App />
+    </Switch>
+  </BrowserRouter>,
+
   document.getElementById('root')
 );
 
