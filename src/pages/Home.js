@@ -4,6 +4,7 @@ import foto from '../img/banner.png';
 import fotoForm from '../img/foto_form.png';
 import CardSliderTextoHome from '../components/CardSliderTextoHome'
 import '../style/Home.css';
+import Mentores from './Mentores';
 
 
 class Home extends Component {
@@ -53,7 +54,7 @@ class Home extends Component {
             <h3>Seja você um mentor, um aluno ou uma<br /> empresa, temos a solução perfeita para você!</h3>
           </div>
           <div className='buttonsAjuda'>
-            <Button className='bot' variant="primary">Seu mentor</Button>{' '}
+            <Button className='bot' variant="primary" >Seu mentor</Button>{' '}
             <Button variant="success">Sou aluno</Button>{' '}
             <Button variant="light">Sou empresa</Button>{' '}
           </div>
