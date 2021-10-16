@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/gamaAcademyChefao/static/css/main.69d751f8.chunk.css",
-    "main.js": "/gamaAcademyChefao/static/js/main.c511900d.chunk.js",
-    "main.js.map": "/gamaAcademyChefao/static/js/main.c511900d.chunk.js.map",
+    "main.css": "/gamaAcademyChefao/static/css/main.be7434fd.chunk.css",
+    "main.js": "/gamaAcademyChefao/static/js/main.650c2b1c.chunk.js",
+    "main.js.map": "/gamaAcademyChefao/static/js/main.650c2b1c.chunk.js.map",
     "runtime-main.js": "/gamaAcademyChefao/static/js/runtime-main.fff4be0a.js",
     "runtime-main.js.map": "/gamaAcademyChefao/static/js/runtime-main.fff4be0a.js.map",
     "static/js/2.68975022.chunk.js": "/gamaAcademyChefao/static/js/2.68975022.chunk.js",
     "static/js/2.68975022.chunk.js.map": "/gamaAcademyChefao/static/js/2.68975022.chunk.js.map",
     "index.html": "/gamaAcademyChefao/index.html",
-    "static/css/main.69d751f8.chunk.css.map": "/gamaAcademyChefao/static/css/main.69d751f8.chunk.css.map",
+    "static/css/main.be7434fd.chunk.css.map": "/gamaAcademyChefao/static/css/main.be7434fd.chunk.css.map",
     "static/js/2.68975022.chunk.js.LICENSE.txt": "/gamaAcademyChefao/static/js/2.68975022.chunk.js.LICENSE.txt",
     "static/media/Ellipse6.5189ef9e.png": "/gamaAcademyChefao/static/media/Ellipse6.5189ef9e.png",
     "static/media/banner.f655ed45.png": "/gamaAcademyChefao/static/media/banner.f655ed45.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.fff4be0a.js",
     "static/js/2.68975022.chunk.js",
-    "static/css/main.69d751f8.chunk.css",
-    "static/js/main.c511900d.chunk.js"
+    "static/css/main.be7434fd.chunk.css",
+    "static/js/main.650c2b1c.chunk.js"
   ]
 }
