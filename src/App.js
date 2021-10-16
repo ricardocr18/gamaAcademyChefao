@@ -29,8 +29,7 @@ function App(){
             </div>                   
             <div className="pagination__container">
               <Route exact path="/cadastro" component={ TelaLoginEhCadastro } />
-              <Route exact path="/login" component={ Login } /> 
-             
+              <Route exact path="/login" component={ Login } />              
             </div>          
         </div>
       </main>       
