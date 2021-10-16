@@ -15,7 +15,8 @@ function App(){
     <div className='App'>
         <Header />
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/chefao" component={Home} />
+            
             <Route exact path="/mentores"  component={Mentores} />
             <Route exact path="/perfil"  component={PerfilDoMentor} />
             {/* <Route exact path="/loginEhCadastro" component={TelaLoginEhCadastro} /> */}
@@ -39,17 +40,3 @@ function App(){
 }
 export default App;
 
-
-
-
-
-  /*function App() {
-  return (
-    <div className="App">
-    <Home />         
-  </div>
-);
-    
-}
-
-export default App; */

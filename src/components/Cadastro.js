@@ -168,7 +168,7 @@ class Cadastro extends Component {
 
       <div className="cadastro__container">
 
-        <h2 className="cadastro__title">Cadastro</h2>
+        <h2 lassName="cadastro__title">Cadastro</h2>
         <form className="form__container">
           <div className="form-content name__input">
             <input

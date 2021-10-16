@@ -4,11 +4,13 @@ import foto from '../img/banner.png';
 import fotoForm from '../img/foto_form.png';
 import CardSliderTextoHome from '../components/CardSliderTextoHome'
 import '../style/Home.css';
+import { Link } from "react-router-dom";
 
 
 
 class Home extends Component {
   render() {
+    
     return (
       <div className="Home">
 
@@ -41,22 +43,26 @@ class Home extends Component {
                 </div>
               </div>
 
+                                   
+
             </Card.ImgOverlay>
           </Card>
         </div>
 
         <div className='contentAjudar'>
 
-          <div id='ajuda'>
-            <h2>Estamos aqui para ajudar você neste momento</h2>
+          <div >
+            <h2 id='ajuda'>Estamos aqui para ajudar você neste momento</h2>
           </div>
           <div className='subTexto'>
             <h3>Seja você um mentor, um aluno ou uma<br /> empresa, temos a solução perfeita para você!</h3>
           </div>
           <div className='buttonsAjuda'>
-            <Button className='bot' variant="primary" >Seu mentor</Button>{' '}
-            <Button variant="success">Sou aluno</Button>{' '}
+          <Link to="/login" >
+            <Button className='bot' variant="primary" >Seu mentor</Button>{' '}            
+            <Button variant="success">Sou aluno</Button>{' '}            
             <Button variant="light">Sou empresa</Button>{' '}
+            </Link>
           </div>
 
           <div className='contentMentorando'>
@@ -64,7 +70,9 @@ class Home extends Component {
             <div className='subTexto'>
               <h3>Nós rompemos a barreira do conhecimento!<br /> Conectamos problemas reais aos melhores e mais especializados<br /> mentores capazes de transformar realizades e negócios</h3>
             </div>
+            <Link to="/cadastro" >
             <Button className='buttonMentorando' variant="success">Me cadastrar</Button>{' '}
+            </Link>
           </div>
 
         </div>
@@ -101,7 +109,7 @@ class Home extends Component {
               <div class="col-md-6">
 
                 <form className='formHome' class="row g-3" action="enviar.php" method="POST">
-                  <h5>Fale Conosco.</h5>
+                  <h5 id="faleConosco">Fale Conosco.</h5>
                   <div class="col-md-12">
                     <label for="validationDefault01" class="form-label">Nome</label>
                     <input type="text" class="form-control" id="validationDefault01" name="nome" placeholder="Qual o seu Nome" required />
