@@ -79,7 +79,7 @@ function CardSlider () {
             <div className="card">
               <img className="pt-3 card-img-top" src={img3} alt="" />
               <div className="card-body">
-                <p className="card-text">Farmácia</p>
+                <p className="card-text">Cálculo</p>
               </div>
           
             </div>
