@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 
 class Home extends Component {
-  render() {    
+  render() {
     return (
       <div className="Home">
 
@@ -22,7 +22,24 @@ class Home extends Component {
               </Card.Title>
 
               <div className="container">
+
                 <div className="row">
+                  <div className="col-xs-4">
+                    <div class="search mt-5">
+                      <i class="fa fa-search"></i>
+                      <div className="mentoresBusca">
+                        <input
+                          type="text-center"
+                          class="form-control"
+                          placeholder="Busque sua especialidade"
+                        />
+                      </div>                      
+                    </div>
+                  </div>
+                </div>
+
+
+                {/* <div className="row">
                   <div className="col-12">
 
                     <div className="tamanho">
@@ -38,10 +55,10 @@ class Home extends Component {
                     </div>
 
                   </div>
-                </div>
+                </div> */}
               </div>
 
-                                   
+
 
             </Card.ImgOverlay>
           </Card>
@@ -56,10 +73,10 @@ class Home extends Component {
             <h3>Seja você um mentor, um aluno ou uma<br /> empresa, temos a solução perfeita para você!</h3>
           </div>
           <div className='buttonsAjuda'>
-          <Link to="/login" >
-            <Button className='bot' variant="primary" >Seu mentor</Button>{' '}            
-            <Button variant="success">Sou aluno</Button>{' '}            
-            <Button variant="light">Sou empresa</Button>{' '}
+            <Link to="/login" >
+              <Button className='bot' variant="primary" >Seu mentor</Button>{' '}
+              <Button variant="success">Sou aluno</Button>{' '}
+              <Button variant="light">Sou empresa</Button>{' '}
             </Link>
           </div>
 
@@ -69,7 +86,7 @@ class Home extends Component {
               <h3>Nós rompemos a barreira do conhecimento!<br /> Conectamos problemas reais aos melhores e mais especializados<br /> mentores capazes de transformar realizades e negócios</h3>
             </div>
             <Link to="/cadastro" >
-            <Button className='buttonMentorando' variant="success">Me cadastrar</Button>{' '}
+              <Button className='buttonMentorando' variant="success">Me cadastrar</Button>{' '}
             </Link>
           </div>
 
@@ -83,7 +100,7 @@ class Home extends Component {
                   <h5>
                     Indique e ganhe A cada indicação que se cadastrar
                     <a target="_blank" href={'https://forms.gle/LGppMRKybmeySj7D8'}>
-                    <span> aqui</span> </a> na Mentorando, ganhe um bônus/desconto de
+                      <span> aqui</span> </a> na Mentorando, ganhe um bônus/desconto de
                     10% do valor da sua próxima mentoria
                   </h5>
                 </div>

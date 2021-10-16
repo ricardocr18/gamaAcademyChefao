@@ -17,7 +17,7 @@ class Mentores extends Component {
             <div className="col-xs-4">
               <div class="search mt-5">
                 <i class="fa fa-search"></i>
-                <div className="tamanho">
+                <div className="mentoresBusca">
                   <input
                     type="text-center"
                     class="form-control"
