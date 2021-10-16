@@ -14,7 +14,7 @@ function Header() {
   //  }
   
    function homeBtn() {
-     history.push("/chefao");
+     history.push("/gamaAcademyChefao");
      window.location.reload();
    }
 
