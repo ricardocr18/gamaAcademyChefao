@@ -1,28 +1,24 @@
-import { Component } from 'react'
-import { Button, Card, Form } from 'react-bootstrap';
-import foto from '../img/banner.png';
-import fotoForm from '../img/foto_form.png';
-import CardSliderTextoHome from '../components/CardSliderTextoHome'
-import '../style/Home.css';
+import { Component } from "react";
+import { Button, Card, Form } from "react-bootstrap";
+import foto from "../img/banner.png";
+import fotoForm from "../img/foto_form.png";
+import CardSliderTextoHome from "../components/CardSliderTextoHome";
+import "../style/Home.css";
 import { Link } from "react-router-dom";
-
 
 class Home extends Component {
   render() {
     return (
       <div className="Home">
-
-
         <div>
           <Card className="banner">
-            <Card.Img className='bannerFoto' src={foto} alt="Card image" />
+            <Card.Img className="bannerFoto" src={foto} alt="Card image" />
             <Card.ImgOverlay>
-              <Card.Title className='bannerTitulo'>
+              <Card.Title className="bannerTitulo">
                 <p>Conectamos você com as melhores soluções técnicas</p>
               </Card.Title>
 
               <div className="container">
-
                 <div className="row">
                   <div className="col-xs-4">
                     <div class="search mt-5">
@@ -33,11 +29,10 @@ class Home extends Component {
                           class="form-control"
                           placeholder="Busque sua especialidade"
                         />
-                      </div>                      
+                      </div>
                     </div>
                   </div>
                 </div>
-
 
                 {/* <div className="row">
                   <div className="col-12">
@@ -57,39 +52,46 @@ class Home extends Component {
                   </div>
                 </div> */}
               </div>
-
-
-
             </Card.ImgOverlay>
           </Card>
         </div>
 
-        <div className='contentAjudar'>
-
-          <div >
-            <h2 id='ajuda'>Estamos aqui para ajudar você neste momento</h2>
+        <div className="contentAjudar">
+          <div>
+            <h2 id="ajuda">Estamos aqui para ajudar você neste momento</h2>
           </div>
-          <div className='subTexto'>
-            <h3>Seja você um mentor, um aluno ou uma<br /> empresa, temos a solução perfeita para você!</h3>
+          <div className="subTexto">
+            <h3>
+              Seja você um mentor, um aluno ou uma
+              <br /> empresa, temos a solução perfeita para você!
+            </h3>
           </div>
-          <div className='buttonsAjuda'>
-            <Link to="/login" >
-              <Button className='bot' variant="primary" >Seu mentor</Button>{' '}
-              <Button variant="success">Sou aluno</Button>{' '}
-              <Button variant="light">Sou empresa</Button>{' '}
+          <div className="buttonsAjuda">
+            <Link to="/login">
+              <Button className="bot" variant="primary">
+                Seu mentor
+              </Button>{" "}
+              <Button variant="success">Sou aluno</Button>{" "}
+              <Button variant="light">Sou empresa</Button>{" "}
             </Link>
           </div>
 
-          <div className='contentMentorando'>
+          <div className="contentMentorando">
             <h2>Quem é a Mentorando?</h2>
-            <div className='subTexto'>
-              <h3>Nós rompemos a barreira do conhecimento!<br /> Conectamos problemas reais aos melhores e mais especializados<br /> mentores capazes de transformar realizades e negócios</h3>
+            <div className="subTexto">
+              <h3>
+                Nós rompemos a barreira do conhecimento!
+                <br /> Conectamos problemas reais aos melhores e mais
+                especializados
+                <br /> mentores capazes de transformar realizades e negócios
+              </h3>
             </div>
-            <Link to="/cadastro" >
-              <Button className='buttonMentorando' variant="success">Me cadastrar</Button>{' '}
+            <Link to="/cadastro">
+              <Button className="buttonMentorando" variant="success">
+                Me cadastrar
+              </Button>{" "}
             </Link>
           </div>
-
         </div>
         <div id="about-form">
           <div className="container">
@@ -99,9 +101,14 @@ class Home extends Component {
                   <h2>Indique e ganhe</h2>
                   <h5>
                     Indique e ganhe A cada indicação que se cadastrar
-                    <a target="_blank" href={'https://forms.gle/LGppMRKybmeySj7D8'}>
-                      <span> aqui</span> </a> na Mentorando, ganhe um bônus/desconto de
-                    10% do valor da sua próxima mentoria
+                    <a
+                      target="_blank"
+                      href={"https://forms.gle/LGppMRKybmeySj7D8"}
+                    >
+                      <span> aqui</span>{" "}
+                    </a>{" "}
+                    na Mentorando, ganhe um bônus/desconto de 10% do valor da
+                    sua próxima mentoria
                   </h5>
                 </div>
               </div>
@@ -115,42 +122,70 @@ class Home extends Component {
         <div id="about-form">
           <div class="container">
             <div class="row">
-              <div class="col-12">
-
-              </div>
+              <div class="col-12"></div>
               <div class="col-md-6">
                 <img class="img-fluid" src={fotoForm} alt="VemConsig" />
               </div>
               <div class="col-md-6">
-
-                <form className='formHome' class="row g-3" action="enviar.php" method="POST">
+                <form
+                  className="formHome"
+                  class="row g-3"
+                  action="enviar.php"
+                  method="POST"
+                >
                   <h5 id="faleConosco">Fale Conosco.</h5>
 
                   <div class="col-md-12">
                     <div class="col-md-2">
                       <p>Nome</p>
                     </div>
-                    <input type="text" class="form-control" id="validationDefault01" name="nome" placeholder="Qual o seu Nome" required />                    
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="validationDefault01"
+                      name="nome"
+                      placeholder="Qual o seu Nome"
+                      required
+                    />
                   </div>
 
                   <div class="col-md-12">
                     <div class="col-md-2">
                       <p>E-mail</p>
                     </div>
-                    <input type="text" class="form-control" id="validationDefault02" name="telefone" placeholder="Qual o seu e-mail" required />
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="validationDefault02"
+                      name="telefone"
+                      placeholder="Qual o seu e-mail"
+                      required
+                    />
                   </div>
 
-                  <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                  <div class="col-md-3">
+                  <Form.Group
+                    className="mb-3"
+                    controlId="exampleForm.ControlTextarea1"
+                  >
+                    <div class="col-md-3">
                       <p>Mensagem</p>
                     </div>
-                    <Form.Control as="textarea" rows={3} placeholder="Digite a sua Mensagem aqui" />
+                    <Form.Control
+                      as="textarea"
+                      rows={3}
+                      placeholder="Digite a sua Mensagem aqui"
+                    />
                   </Form.Group>
 
                   <div class="col-12">
-                    <button class="btn btn-primary" name="enviarFormulario" type="submit">Enviar</button>
+                    <button
+                      class="btn btn-primary"
+                      name="enviarFormulario"
+                      type="submit"
+                    >
+                      Enviar
+                    </button>
                   </div>
-
                 </form>
               </div>
             </div>

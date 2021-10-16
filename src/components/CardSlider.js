@@ -12,12 +12,13 @@ import img5 from '../img/img5.png';
 
 function CardSlider () {
   
+  const history = useHistory('/perfil');
 
-    const history = useHistory();
-        function perfilRaquelBtn() {
-          history.push("/perfil");
-          window.location.reload();
-        }
+    // const history = useHistory();
+    //     function perfilRaquelBtn() {
+    //       history.push("/perfil");
+    //       window.location.reload();
+    //     }
 
     var settings = {
       dots: true,
@@ -73,7 +74,7 @@ function CardSlider () {
             </div>
           </div>
           
-          <div className="card-group" onClick={() => perfilRaquelBtn()}>
+          <div className="card-group" onClick={() => history.push('/perfil')}>
           
             <div className="card">
               <img className="pt-3 card-img-top" src={img3} alt="" />

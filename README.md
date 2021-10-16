@@ -19,7 +19,7 @@ Com base em todo o conhecimento adquirido no curso #GamaAcademy, o desafio será
 
 Após fazer o download da aplicação digitar *npm start* no terminal para que a aplicação seja iniciada no http://localhost:3000/gamaAcademyChefao
 
-- Site:  https://ricardocr18.github.io/gamaAcademyChefao/)
+- Site:  https://ricardocr18.github.io/gamaAcademyChefao/
 
 
 
