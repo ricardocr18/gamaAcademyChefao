@@ -7,10 +7,8 @@ import '../style/Home.css';
 import { Link } from "react-router-dom";
 
 
-
 class Home extends Component {
-  render() {
-    
+  render() {    
     return (
       <div className="Home">
 

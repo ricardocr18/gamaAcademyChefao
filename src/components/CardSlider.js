@@ -1,15 +1,24 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import '../style/Mentores.css'
+import '../style/Mentores.css';
+import { useHistory } from 'react-router-dom'
+
 
 import img1 from '../img/img1.png';
 import img2 from '../img/img2.png';
-import img3 from '../img/img3.png';
+import img3 from '../img/Ellipse6.png';
 import img4 from '../img/img4.png';
 import img5 from '../img/img5.png';
 
-export default class CardSlider extends Component {
-  render() {
+function CardSlider () {
+  
+
+    const history = useHistory();
+        function perfilRaquelBtn() {
+          history.push("/perfil");
+          window.location.reload();
+        }
+
     var settings = {
       dots: true,
       infinite: true,
@@ -63,12 +72,15 @@ export default class CardSlider extends Component {
               </div>
             </div>
           </div>
-          <div className="card-group">
+          
+          <div className="card-group" onClick={() => perfilRaquelBtn()}>
+          
             <div className="card">
               <img className="pt-3 card-img-top" src={img3} alt="" />
               <div className="card-body">
                 <p className="card-text">Farmácia</p>
               </div>
+          
             </div>
           </div>
           <div className="card-group">
@@ -98,5 +110,7 @@ export default class CardSlider extends Component {
         </Slider>
       </div>
     );
-  }
+  
 }
+
+export default CardSlider;

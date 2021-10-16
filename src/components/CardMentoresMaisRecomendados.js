@@ -4,17 +4,13 @@ import img1 from '../img/img1.png';
 import img2 from '../img/img2.png';
 import img4 from '../img/img4.png';
 import img5 from '../img/img5.png';
-import { useHistory } from 'react-router-dom'
+
 
 function CardMentoresMaisRecomendados () {
 
   
 
-    const history = useHistory();
-        function perfilPedroBtn() {
-          history.push("/perfil");
-          window.location.reload();
-        }
+    
 
     var settings = {
       dots: true,
@@ -64,7 +60,7 @@ function CardMentoresMaisRecomendados () {
               </div>
             </div>
           </div>
-          <div className="card-group" onClick={() => perfilPedroBtn()}>
+          <div className="card-group" >
             <div className="card">
               <img className="pt-3 card-img-top" src={img2} alt="" />
               <div className="card-body">
