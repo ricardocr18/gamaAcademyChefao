@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gamaAcademyChefao/static/css/main.73aa7011.chunk.css",
-    "main.js": "/gamaAcademyChefao/static/js/main.16a178e1.chunk.js",
-    "main.js.map": "/gamaAcademyChefao/static/js/main.16a178e1.chunk.js.map",
+    "main.js": "/gamaAcademyChefao/static/js/main.c83d470a.chunk.js",
+    "main.js.map": "/gamaAcademyChefao/static/js/main.c83d470a.chunk.js.map",
     "runtime-main.js": "/gamaAcademyChefao/static/js/runtime-main.fff4be0a.js",
     "runtime-main.js.map": "/gamaAcademyChefao/static/js/runtime-main.fff4be0a.js.map",
     "static/js/2.68975022.chunk.js": "/gamaAcademyChefao/static/js/2.68975022.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.fff4be0a.js",
     "static/js/2.68975022.chunk.js",
     "static/css/main.73aa7011.chunk.css",
-    "static/js/main.16a178e1.chunk.js"
+    "static/js/main.c83d470a.chunk.js"
   ]
 }
