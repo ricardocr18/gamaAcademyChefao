@@ -125,17 +125,25 @@ class Home extends Component {
 
                 <form className='formHome' class="row g-3" action="enviar.php" method="POST">
                   <h5 id="faleConosco">Fale Conosco.</h5>
+
                   <div class="col-md-12">
-                    <label for="validationDefault01" class="form-label">Nome</label>
-                    <input type="text" class="form-control" id="validationDefault01" name="nome" placeholder="Qual o seu Nome" required />
+                    <div class="col-md-2">
+                      <p>Nome</p>
+                    </div>
+                    <input type="text" class="form-control" id="validationDefault01" name="nome" placeholder="Qual o seu Nome" required />                    
                   </div>
-                  <div class="col-md-6">
-                    <label for="validationDefault02" class="form-label">E-mail</label>
+
+                  <div class="col-md-12">
+                    <div class="col-md-2">
+                      <p>E-mail</p>
+                    </div>
                     <input type="text" class="form-control" id="validationDefault02" name="telefone" placeholder="Qual o seu e-mail" required />
                   </div>
 
                   <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                    <Form.Label>Mensagem</Form.Label>
+                  <div class="col-md-3">
+                      <p>Mensagem</p>
+                    </div>
                     <Form.Control as="textarea" rows={3} placeholder="Digite a sua Mensagem aqui" />
                   </Form.Group>
 
