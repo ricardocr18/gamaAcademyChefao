@@ -5,7 +5,7 @@ Repositorio destinado ao projeto Final na plataforma de ensino da Gama Academy -
 
 # Seguem descrições do projeto e como rodar as suas funcionalidades e ter visualização:
 
-###  - Desafio Chefão <img align="center" alt="pasta-JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> <img align="center" alt="pasta-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+###  - Desafio Chefão em Manutenção <img align="center" alt="pasta-JavaScript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> <img align="center" alt="pasta-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
 
 Com base em todo o conhecimento adquirido no curso #GamaAcademy, o desafio será criar um produto do zero. Criar uma apresentação de portfolio navegável e interativo de um novo empreendimento. Aproveitar todo o aprendizado de Backend que tivemos até agora e também de Frontend para criarmos algo que funcione perfeitamente com o banco, assim como trará também uma experiência incrível e amigável para os usuários de vocês. 
 
